@@ -15,7 +15,7 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University, u
 
 ## News
 
-- **[Apr. 2020]** Our paper about Federated Learning is accepted to ICCECT 2026.
+- **[Apr. 2026]** Our paper about Federated Learning is accepted to ICCECT 2026.
 
 {% include_relative _includes/publications.md %}
 
