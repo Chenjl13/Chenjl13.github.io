@@ -4,19 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am currently an undergraduate student (from 2023Fall) in Beijing University of Technology, pursuing a Bachelor's degree in Electronic Science and Technology. 
+
+Currently, I am serving as a research intern at Shanghai Jiao Tong University, under the supervision of Doc.Hongyu Zhao. Before this, I was extremely honored to be advised by Prof.Sujuan Liu.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Digital IC Design:** digital circuit design and analysis
+- **Medical LLMs:** fine-tuning of medical large language models
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Apr. 2020]** Our paper about Federated Learning is accepted to ICCECT 2026.
 
 {% include_relative _includes/publications.md %}
 
