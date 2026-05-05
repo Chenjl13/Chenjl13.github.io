@@ -47,7 +47,6 @@ Jan. 2026 - Feb. 2026, Beijing, China
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
 
 ## Language
 
