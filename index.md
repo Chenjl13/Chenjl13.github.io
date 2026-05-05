@@ -17,6 +17,18 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University, u
 
 - **[Apr. 2026]** Our paper about Federated Learning is accepted to ICCECT 2026.
 
+## Education
+
+- **B.S. in Electronic Science and Technology**, Beijing University of Technology, 2023-2027.
+- **GPA:** 3.70/4.00.
+
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+## Language
+
+- **IELTS:** Total Score **7.5/9.0** (Listening 8.0/9.0, Reading 8.5/9.0).
+- **CET-4:** 604/710, **CET-6:** 513/710 (both achieved on the first attempt in **freshman year**).
+
+
