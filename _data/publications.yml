@@ -1,7 +1,7 @@
 main:
 
   - title: "A Communication-Efficient Compression Method for FedDyn Federated Learning Models"
-    authors: "Jiale Chen"
+    authors: "<strong>(Jiale Chen)</strong>"
     conference_short: "ICCECT"
     conference: "International Conference on Control, Electronics and Computer Technology <strong>(ICCECT)</strong>, 2026."
     pdf: "https://arxiv.org/pdf/2306.00988.pdf"
@@ -11,11 +11,11 @@ main:
     notes: "Early Accept"
 
   - title: "MedChain: Blockchain-based Trusted Evidence Preservation for Medical LLM Inference"
-    authors: "Yihong Chen, Jiale Chen, Hongyu Zhao"
+    authors: "Yihong Chen, <strong>(Jiale Chen)</strong>, Hongyu Zhao"
     conference_short: "BWTAC"
     conference: "International Conference on Blockchain and Web3 Technology Innovation and Applications <strong>(BWTAC)</strong>, 2026."
     pdf: "https://arxiv.org/pdf/2306.00988.pdf"
-    code: "https://github.com/1622636586g-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
+    code: "https://github.com/1622636586q-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
     bibtex: "https://bib.yliu.me/MICCAI23.txt"
     image: "./assets/img/ICCECT.png"
     notes: "Early Accept"
