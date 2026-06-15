@@ -17,5 +17,15 @@ main:
     pdf: "https://arxiv.org/pdf/2306.00988.pdf"
     code: "https://github.com/1622636586q-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
     bibtex: "https://bib.yliu.me/MICCAI23.txt"
-    image: "./assets/img/ICCECT.png"
+    image: "./assets/img/MedChain.png"
+    notes: "Early Accept"
+
+  - title: "MedFusion: Budget-Aware Shared LoRA Adaptation for Multi-Source Medical Image Classification"
+    authors: Yihong Chen, <strong>Jiale Chen</strong>, Hongyu Zhao
+    conference_short: "Information Fusion"
+    conference: "<strong>(Information Fusion)</strong>, 2026."
+    pdf: "https://arxiv.org/pdf/2306.00988.pdf"
+    code: "https://github.com/1622636586q-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
+    bibtex: "https://bib.yliu.me/MICCAI23.txt"
+    image: "./assets/img/Medfusion.png"
     notes: "Early Accept"
