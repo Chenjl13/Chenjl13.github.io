@@ -16,6 +16,8 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University, u
 ## News
 
 - **[Apr. 2026]** Our paper about Federated Learning is accepted to ICCECT 2026.
+- **[Aug. 2026]** Our paper about Blockchain in LLM inference is accepted to BWTAC 2026.
+- **[Nov. 2026]** Our paper about Shared LoRA Fusion is accepted to Information Fusion 2026.
 
 ## Education
 
