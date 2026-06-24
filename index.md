@@ -10,8 +10,9 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University, u
 
 ## Research Interests
 
-- **Digital IC Design:** digital circuit design and analysis
-- **Medical LLMs:** fine-tuning of medical large language models
+- **Digital IC Design:** Digital integrated circuit design and test.
+- **Medical MLLMs:** Medical multimodal large language models, medical image analysis and report generation.
+- **Hardware Acceleration** GPU drivers and test.
 
 ## News
 
