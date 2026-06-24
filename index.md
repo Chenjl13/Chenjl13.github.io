@@ -12,7 +12,7 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University, u
 
 - **Digital IC Design:** Digital integrated circuit design and test.
 - **Medical MLLMs:** Medical multimodal large language models, medical image analysis and report generation.
-- **Hardware Acceleration** GPU drivers and test.
+- **Hardware Acceleration:** GPU drivers and test.
 
 ## News
 
