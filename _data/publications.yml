@@ -6,7 +6,7 @@ main:
     conference: "International Conference on Control, Electronics and Computer Technology <strong>(ICCECT)</strong>, 2026."
     pdf: "https://arxiv.org/pdf/2306.00988.pdf"
     code: "https://github.com/Chenjl13/PFLlib"
-    bibtex: "./assets/bib/ICCECT2026.txt"
+    bibtex: "./assets/bib/ICCECT.txt"
     image: "./assets/img/ICCECT.png"
     notes: "Early Accept"
 
