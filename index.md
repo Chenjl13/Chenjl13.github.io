@@ -2,7 +2,6 @@
 layout: homepage
 ---
 
-
 ## About Me
 
 I am currently an undergraduate student (from 2023Fall) in Beijing University of Technology, pursuing a Bachelor's degree in Electronic Science and Technology. 
