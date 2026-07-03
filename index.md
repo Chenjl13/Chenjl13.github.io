@@ -25,7 +25,7 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University, u
 - **GPA:** 3.70/4.00, **Overall Average:** 88.41/100, **Junior Year Weighted Average:** 92.85/100 **(Top 10%)**
 - **Selected Courses:**
   
-  Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design(97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96).
+  Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design(97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design(95). 
 
 ## Internship
 
