@@ -1,6 +1,6 @@
 @inproceedings{chen2026communication,
   title={A Communication-Efficient Compression Method for FedDyn Federated Learning Models},
-  author={Chen, Jiale},
+  author={Jiale Chen},
   booktitle={International Conference on Control, Electronics and Computer Technology},
   year={2026}
 }
