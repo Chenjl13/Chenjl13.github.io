@@ -2,18 +2,17 @@
 layout: homepage
 ---
 
-
 ## About Me
 
-I am currently an undergraduate student (from 2023Fall) in Beijing University of Technology, pursuing a Bachelor's degree in Electronic Science and Technology. 
+I am currently an undergraduate student (from Fall 2023) at Beijing University of Technology, pursuing a Bachelor's degree in Electronic Science and Technology. 
 
-Currently, I am serving as a research intern at Shanghai Jiao Tong University, under the supervision of Dr. Hongyu Zhao. Before this, I was extremely honored to be advised by Prof. Sujuan Liu.
+Currently, I am serving as a research intern at Shanghai Jiao Tong University under the supervision of Dr. Hongyu Zhao. Before this, I was extremely honored to be advised by Prof. Sujuan Liu.
 
 ## Research Interests
 
-- **Digital IC Design:** Digital integrated circuit design and test.
-- **Medical MLLMs:** Medical multimodal large language models, medical image analysis and report generation.
-- **Hardware Acceleration:** GPU drivers and test.
+- **Digital IC Design:** Digital integrated circuit design and testing.
+- **Medical MLLMs:** Medical multimodal large language models, medical image analysis, and report generation.
+- **Hardware Acceleration:** GPU drivers, testing, and acceleration.
 
 ## News
 
@@ -25,7 +24,7 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University, u
 - **GPA:** 3.70/4.00, **Overall Average:** 88.44/100, **Junior Year Weighted Average:** 92.7/100 **(Top 10%)**
 - **Selected Courses:**
   
-  Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design(97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design(95). 
+  Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design (97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design (95). 
 
 ## Internship
 
@@ -55,3 +54,28 @@ Jan. 2026 - Feb. 2026, Beijing, China
 - **CET-4:** 604/710, **CET-6:** 513/710 (both achieved on the first attempt in **freshman year**).
 
 
+## Misc
+
+### Guitar
+
+<div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 30px;">
+  <img src="{{ '/assets/images/misc/guitar.jpg' | relative_url }}" alt="Guitar performance" style="width: 280px; border-radius: 8px;">
+  <div style="flex: 1; min-width: 260px;">
+    <p>
+      Outside academics, I enjoy playing the guitar and have participated in several performances.
+      Music is an important way for me to relax, express myself, and maintain creativity.
+    </p>
+  </div>
+</div>
+
+### Travel
+
+<div style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 15px;">
+  <img src="{{ '/assets/images/misc/travel1.jpg' | relative_url }}" alt="Travel photo 1" style="width: 220px; border-radius: 8px;">
+  <img src="{{ '/assets/images/misc/travel2.jpg' | relative_url }}" alt="Travel photo 2" style="width: 220px; border-radius: 8px;">
+  <img src="{{ '/assets/images/misc/travel3.jpg' | relative_url }}" alt="Travel photo 3" style="width: 220px; border-radius: 8px;">
+</div>
+
+<p>
+  I enjoy traveling and exploring different cultures. Traveling helps me broaden my perspective and brings inspiration beyond study and research.
+</p>
