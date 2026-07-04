@@ -74,7 +74,6 @@ Jan. 2026 - Feb. 2026, Beijing, China
 <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 15px;">
   <img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel photo 1" style="width: 220px; border-radius: 8px;">
   <img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel photo 2" style="width: 220px; border-radius: 8px;">
-  <img src="{{ '/assets/img/misc/travel3.jpg' | relative_url }}" alt="Travel photo 3" style="width: 220px; border-radius: 8px;">
 </div>
 
 <p>
