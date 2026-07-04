@@ -59,7 +59,7 @@ Jan. 2026 - Feb. 2026, Beijing, China
 ### Guitar
 
 <div style="display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 30px;">
-  <img src="{{ '/assets/img/misc/guitar1.jpg' | relative_url }}" alt="Guitar performance" style="width: 220px; border-radius: 8px;">
+  <img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance" style="width: 220px; border-radius: 8px;">
   <img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance" style="width: 220px; border-radius: 8px;">
   <div style="flex: 1; min-width: 260px;">
     <p>
@@ -67,6 +67,13 @@ Jan. 2026 - Feb. 2026, Beijing, China
       Music is an important way for me to relax, express myself, and maintain creativity.
     </p>
   </div>
+</div>
+
+### Football
+
+<div style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 15px;">
+  <img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Travel photo 1" style="width: 220px; border-radius: 8px;">
+  <img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Travel photo 2" style="width: 220px; border-radius: 8px;">
 </div>
 
 ### Travel
