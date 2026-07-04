@@ -45,6 +45,12 @@ Jan. 2026 - Feb. 2026, Beijing, China
 - Supported basic testing and validation tasks for network switches and optical modules under the guidance of engineers.
 - Studied emerging networking technologies, including programmable networking and reinforcement learning concepts.
 
+### Glenfly  
+Software Development Intern  
+Jun. 2026 - Aug. 2026, Shanghai, China
+
+- Participated in GPU stress, functional, and automated testing.
+
 {% include_relative _includes/publications.md %}
 
 
