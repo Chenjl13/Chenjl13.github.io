@@ -49,7 +49,7 @@ Jan. 2026 - Feb. 2026, Beijing, China
 Software Development Intern  
 Jun. 2026 - Aug. 2026, Shanghai, China
 
-- Participated in GPU stress, functional, and automated testing.
+- Conducted manual and automated GPU stress testing on the Glenfly Arise1020 across Windows and Linux, covering OpenGL, OpenCL, Direct3D, and system-level workloads to validate driver compatibility and platform stability.
 
 {% include_relative _includes/publications.md %}
 
