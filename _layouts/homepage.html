@@ -77,6 +77,18 @@
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
+        
+        {% if site.email %}
+        <a style="margin: 0 5px 0 0" href="mailto:{{ site.email }}">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        {% endif %}
+
+        {% if site.orcid %}
+        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}" target="_blank">
+          <i class="ai ai-orcid" style="font-size:1.2rem"></i>
+        </a>
+        {% endif %}
 
         {% if site.linkedin %}
         <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
