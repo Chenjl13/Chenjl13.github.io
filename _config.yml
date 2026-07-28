@@ -12,10 +12,18 @@ canonical: https://minimal-light-theme.yliu.me/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?hl=en&user=rZrP0QoAAAAJ
+# Links
+google_scholar: https://scholar.google.com/citations?hl=en&user=rZrP0QAAAAJ
+
 cv_link: assets/files/cv.pdf
+
 github_link: https://github.com/Chenjl13
-linkedin: https://www.linkedin.com/
+
+orcid: https://orcid.org/你的ORCID编号
+
+email: 你的邮箱地址
+
+research_gate: https://www.researchgate.net/profile/你的名字
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
