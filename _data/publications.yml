@@ -11,22 +11,22 @@ main:
     notes: "Published in IEEE Xplore"
 
 
-  # - title: "MedChain: Blockchain-based Trusted Evidence Preservation for Medical LLM Inference"
-  #   authors: Yihong Chen*, <strong>Jiale Chen*</strong>, Hongyu Zhao, Lili Cao, Kaili Qin, Yuan Qiu, Ruhui Ma**, Yuan Liu
-  #   conference_short: "BWTAC"
-  #   conference: "International Conference on Blockchain and Web3 Technology Innovation and Applications <strong>(BWTAC)</strong>, 2026."
-  #   pdf: "https://arxiv.org/pdf/2306.00988.pdf"
-  #   code: "https://github.com/1622636586q-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
-  #   bibtex: "https://bib.yliu.me/MICCAI23.txt"
-  #   image: "./assets/img/MedChain.png"
-  #   notes: "Early Accept"
+  - title: "MedChain: Blockchain-based Trusted Evidence Preservation for Medical LLM Inference"
+    authors: Yihong Chen*, <strong>Jiale Chen*</strong>, Hongyu Zhao, Lili Cao, Kaili Qin, Yuan Qiu, Ruhui Ma**, Yuan Liu
+    conference_short: "BWTAC"
+    conference: "International Conference on Blockchain and Web3 Technology Innovation and Applications <strong>(BWTAC)</strong>, 2026."
+    pdf: "https://arxiv.org/pdf/2306.00988.pdf"
+    code: "https://github.com/1622636586q-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
+    bibtex: "https://bib.yliu.me/MICCAI23.txt"
+    image: "./assets/img/MedChain.png"
+    notes: "Early Accept"
 
-  # - title: "MedFusion: Budget-Aware Shared LoRA Adaptation for Multi-Source Medical Image Classification"
-  #   authors: Yihong Chen, <strong>Jiale Chen</strong>, Hongyu Zhao
-  #   conference_short: "Information Fusion"
-  #   conference: "<strong>(Information Fusion)</strong>, 2026."
-  #   pdf: "https://arxiv.org/pdf/2306.00988.pdf"
-  #   code: "https://github.com/1622636586q-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
-  #   bibtex: "https://bib.yliu.me/MICCAI23.txt"
-  #   image: "./assets/img/MedF.png"
-  #   notes: "Early Accept"
+  - title: "MedFusion: Budget-Aware Shared LoRA Adaptation for Multi-Source Medical Image Classification"
+    authors: Hongyu Zhao* , <strong>Jiale Chen*</strong>, Yihong Chen*
+    conference_short: "Information Fusion"
+    conference: "<strong>(Information Fusion)</strong>, 2026."
+    pdf: "https://arxiv.org/pdf/2306.00988.pdf"
+    code: "https://github.com/1622636586q-max/MedChain-Blockchain-based-Trusted-Evidence-Preservation-for-Medical-LLM-Inference"
+    bibtex: "https://bib.yliu.me/MICCAI23.txt"
+    image: "./assets/img/MedFusion.png"
+    notes: "Early Accept"
