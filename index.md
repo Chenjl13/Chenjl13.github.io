@@ -21,7 +21,7 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University un
 ## Education
 
 - **B.S. in Electronic Science and Technology**, Beijing University of Technology, 2023-2027.
-- **GPA:** 3.75/4.00, **Overall Average:** 88.44/100, **Junior Year Weighted Average:** 92.7/100 **(Top 10%)**
+- **GPA:** 3.76/4.00, **Overall Average:** 88.7/100, **Junior Year Weighted Average:** 93.12/100 **(Top 10%)**
 - **Selected Courses:**
 
   Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design (97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design (95). 
