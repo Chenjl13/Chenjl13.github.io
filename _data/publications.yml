@@ -5,7 +5,7 @@ main:
     conference_short: "ICCECT"
     conference: "International Conference on Control, Electronics and Computer Technology <strong>(ICCECT)</strong>, 2026."
     pdf: ./assets/files/ICCECT.pdf
-    code: "https://github.com/Chenjl13/PFLlib"
+    code: "https://github.com/Chenjl13/FedDyn-FPI"
     bibtex: "./assets/bib/ICCECT.txt"
     image: "./assets/img/ICCECT.png"
     notes: "Published in IEEE Xplore"
