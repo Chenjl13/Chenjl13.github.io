@@ -10,9 +10,9 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University un
 
 ## Research Interests
 
+- **Hardware Acceleration:** GPU drivers, testing, and acceleration.
 - **Digital IC Design:** Digital integrated circuit design and testing.
 - **Medical MLLMs:** Medical multimodal large language models, medical image analysis, and report generation.
-- **Hardware Acceleration:** GPU drivers, testing, and acceleration.
 
 ## News
 
@@ -28,31 +28,29 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University un
 
 ## Internship
 
+### Glenfly  
+Software Development Intern  
+Jun. 2026 - Aug. 2026, Shanghai, China
+
+- Conducted functional, stress, stability, and compatibility testing on Glenfly GPUs across Windows and Linux, covering OpenGL, OpenCL, Direct3D, and system-level workloads.
+- Performed repeated GPU workload validation and failure reproduction to evaluate driver compatibility, system stability, and platform behavior under intensive workloads.
+- Developed an automated desktop-folder detection pipeline based on DexiNed and SAM to support repetitive validation workflows across 1080p, 2K, and 4K displays with different DPI settings.
+
 ### Lenovo  
 Embedded Algorithm Engineer  
 Jul. 2025 - Sep. 2025, Beijing, China
 
-- Optimized and deployed Stable Diffusion 3 (SD3) for text-to-image, image-to-image, and inpainting tasks, improving inference latency.
-- Built a segmentation-guided image editing pipeline integrating SD3 and SAM2, enabling automatic image segmentation and high-quality inpainting.
-- Leveraged OpenVINO to deploy and accelerate SD3 on Intel platforms, achieving efficient inference performance.
+- Developed Stable Diffusion 3 (SD3) inference pipelines for text-to-image, image-to-image, and inpainting, integrating SAM/SAM2 for segmentation and mask-guided generation.
+- Built a large-scale data-processing pipeline for millions of image samples and trained ControlNet on image-mask-prompt triplets for segmentation-guided controllable generation.
+- Converted the SD3 + ControlNet inference pipeline from PyTorch to OpenVINO and deployed it on Intel GPUs, completing end-to-end inference validation and hardware-accelerated demo deployment.
 
 ### Cisco  
 Technical Engineer Intern  
 Jan. 2026 - Feb. 2026, Beijing, China
 
-- Learned fundamental concepts of AI data center networking, including RDMA over Converged Ethernet (RoCE) and ECN-based congestion control mechanisms.
-- Assisted in reviewing switch architectures and network designs for large-scale distributed training scenarios.
-- Supported basic testing and validation tasks for network switches and optical modules under the guidance of engineers.
-- Studied emerging networking technologies, including programmable networking and reinforcement learning concepts.
-
-<!--
-### Glenfly  
-Software Development Intern  
-Jun. 2026 - Aug. 2026, Shanghai, China
-
-- Conducted manual and automated GPU stress testing on the Glenfly Arise1020 across Windows and Linux, covering OpenGL, OpenCL, Direct3D, and system-level workloads to validate driver compatibility and platform stability.
-
--->
+- Investigated AI data-center networking for distributed GPU training, focusing on RDMA, RoCEv2, ECN/PFC congestion control, and Leaf-Spine network architectures.
+- Analyzed switch architectures and high-performance network designs, and supported validation of network switches and optical modules under data-center scenarios.
+- Configured and validated enterprise routing and switching environments using BGP, OSPF, VLAN, STP, and ACL for protocol verification and troubleshooting.
 
 {% include_relative _includes/publications.md %}
 
