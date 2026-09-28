@@ -12,7 +12,7 @@ Currently, I am serving as a research intern at Shanghai Jiao Tong University un
 
 - **Hardware Acceleration:** GPU drivers, testing, and acceleration.
 - **Digital IC Design:** Digital integrated circuit design and testing.
-- **Medical MLLMs:** Medical multimodal large language models, medical image analysis, and report generation.
+- **Medical MLLMs:** Medical multimodal large language models, medical image analysis.
 
 ## News
 
@@ -38,7 +38,7 @@ Jun. 2026 - Aug. 2026, Shanghai, China
 
 ### Lenovo  
 Embedded Algorithm Engineer  
-Jul. 2025 - Sep. 2025, Beijing, China
+Jun. 2025 - Aug. 2025, Beijing, China
 
 - Developed Stable Diffusion 3 (SD3) inference pipelines for text-to-image, image-to-image, and inpainting, integrating SAM/SAM2 for segmentation and mask-guided generation.
 - Built a large-scale data-processing pipeline for millions of image samples and trained ControlNet on image-mask-prompt triplets for segmentation-guided controllable generation.
