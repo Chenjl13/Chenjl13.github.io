@@ -55,7 +55,9 @@ layout: homepage
 
   <div class="project-grid">
     <article class="project-card featured-project">
-      <div class="project-art project-art-lora"><span>r</span><span>8</span><span>12</span><span>4</span></div>
+      <div class="project-image-wrap">
+        <img src="{{ '/assets/img/project/QLoRA.png' | relative_url }}" alt="Dynamic LoRA Rank Allocation">
+      </div>
       <div class="project-content">
         <span class="project-label">Efficient MLLM</span>
         <h3>Dynamic LoRA Rank Allocation</h3>
