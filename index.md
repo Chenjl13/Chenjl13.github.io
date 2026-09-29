@@ -2,83 +2,195 @@
 layout: homepage
 ---
 
-## About Me
+<section id="about" class="page-section reveal">
+  <div class="section-heading">
+    <span class="section-kicker">01 · About</span>
+    <h2>About Me</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-copy">
+      <p>I am an undergraduate student in <strong>Electronic Science and Technology</strong> at Beijing University of Technology. My interests span efficient AI systems, GPU computing, hardware acceleration, and multimodal learning.</p>
+      <p>I am currently a research intern at <strong>Shanghai Jiao Tong University</strong> under the supervision of Dr. Hongyu Zhao. Previously, I was advised by Prof. Sujuan Liu.</p>
+    </div>
+    <div class="quick-facts">
+      <div><span>Degree</span><strong>B.S. · 2023–2027</strong></div>
+      <div><span>GPA</span><strong>3.76 / 4.00</strong></div>
+      <div><span>Junior Year</span><strong>93.12 / 100</strong></div>
+      <div><span>IELTS</span><strong>7.5 / 9.0</strong></div>
+    </div>
+  </div>
+</section>
 
-I am currently an undergraduate student (from Fall 2023) at Beijing University of Technology, pursuing a Bachelor's degree in Electronic Science and Technology. 
+<section id="research" class="page-section reveal">
+  <div class="section-heading">
+    <span class="section-kicker">02 · Research</span>
+    <h2>Research Interests</h2>
+    <p>My current work connects model efficiency with systems and hardware-aware design.</p>
+  </div>
 
-Currently, I am serving as a research intern at Shanghai Jiao Tong University under the supervision of Dr. Hongyu Zhao. Before this, I was extremely honored to be advised by Prof. Sujuan Liu.
+  <div class="interest-grid">
+    <article class="interest-card">
+      <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+      <h3>AI Systems</h3>
+      <p>GPU computing, efficient inference, model deployment, and system-level optimization.</p>
+      <div class="tag-row"><span>GPU</span><span>Inference</span><span>OpenVINO</span></div>
+    </article>
+    <article class="interest-card">
+      <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+      <h3>Hardware &amp; Accelerators</h3>
+      <p>Digital IC design, FPGA systems, architecture, validation, and hardware-aware acceleration.</p>
+      <div class="tag-row"><span>Digital IC</span><span>FPGA</span><span>Architecture</span></div>
+    </article>
+    <article class="interest-card">
+      <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
+      <h3>Multimodal AI</h3>
+      <p>Multimodal large language models, parameter-efficient adaptation, and medical image analysis.</p>
+      <div class="tag-row"><span>MLLM</span><span>LoRA</span><span>Medical AI</span></div>
+    </article>
+  </div>
 
-## Research Interests
+  <div class="subsection-heading">
+    <h3>Selected Research &amp; Projects</h3>
+  </div>
 
-- **Hardware Acceleration:** GPU drivers, testing, and acceleration.
-- **Digital IC Design:** Digital integrated circuit design and testing.
-- **Medical MLLMs:** Medical multimodal large language models, medical image analysis.
+  <div class="project-grid">
+    <article class="project-card featured-project">
+      <div class="project-art project-art-lora"><span>r</span><span>8</span><span>12</span><span>4</span></div>
+      <div class="project-content">
+        <span class="project-label">Efficient MLLM</span>
+        <h3>Dynamic LoRA Rank Allocation</h3>
+        <p>Layer-sensitive, budget-aware rank allocation for multimodal large language models, exploring dynamic adaptation under a fixed parameter budget.</p>
+        <div class="tag-row"><span>Qwen2.5-VL</span><span>QLoRA</span><span>ScienceQA</span></div>
+      </div>
+    </article>
 
-## News
+    <article class="project-card">
+      <div class="project-image-wrap">
+        <img src="{{ '/assets/img/MedFusion.png' | relative_url }}" alt="MedFusion project preview">
+      </div>
+      <div class="project-content">
+        <span class="project-label">Medical AI</span>
+        <h3>MedFusion</h3>
+        <p>Budget-aware shared LoRA adaptation for multi-source medical image classification with efficient routing across heterogeneous datasets.</p>
+        <div class="tag-row"><span>MLLM</span><span>Shared LoRA</span><span>Medical Imaging</span></div>
+      </div>
+    </article>
 
-- **[Apr. 2026]** Our paper about Federated Learning is accepted to ICCECT 2026.
+    <article class="project-card">
+      <div class="project-art project-art-gpu"><i class="fa-solid fa-display"></i><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-eye"></i></div>
+      <div class="project-content">
+        <span class="project-label">GPU Automation</span>
+        <h3>Visual Validation Automation</h3>
+        <p>Computer-vision-assisted automation for repetitive GPU validation workflows across resolutions and DPI settings.</p>
+        <div class="tag-row"><span>GPU</span><span>DexiNed</span><span>SAM</span></div>
+      </div>
+    </article>
+  </div>
+</section>
 
-## Education
-
-- **B.S. in Electronic Science and Technology**, Beijing University of Technology, 2023-2027.
-- **GPA:** 3.76/4.00, **Overall Average:** 88.7/100, **Junior Year Weighted Average:** 93.12/100 **(Top 10%)**
-- **Selected Courses:**
-
-  Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design (97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design (95). 
-
-## Internship
-
-### Glenfly  
-Software Development Intern  
-Jun. 2026 - Aug. 2026, Shanghai, China
-
-- Conducted functional, stress, stability, and compatibility testing on Glenfly GPUs across Windows and Linux, covering OpenGL, OpenCL, Direct3D, and system-level workloads.
-- Performed repeated GPU workload validation and failure reproduction to evaluate driver compatibility, system stability, and platform behavior under intensive workloads.
-- Developed an automated desktop-folder detection pipeline based on DexiNed and SAM to support repetitive validation workflows across 1080p, 2K, and 4K displays with different DPI settings.
-
-### Lenovo  
-Embedded Algorithm Engineer  
-Jun. 2025 - Aug. 2025, Beijing, China
-
-- Developed Stable Diffusion 3 (SD3) inference pipelines for text-to-image, image-to-image, and inpainting, integrating SAM/SAM2 for segmentation and mask-guided generation.
-- Built a large-scale data-processing pipeline for millions of image samples and trained ControlNet on image-mask-prompt triplets for segmentation-guided controllable generation.
-- Converted the SD3 + ControlNet inference pipeline from PyTorch to OpenVINO and deployed it on Intel GPUs, completing end-to-end inference validation and hardware-accelerated demo deployment.
-
-### Cisco  
-Technical Engineer Intern  
-Jan. 2026 - Feb. 2026, Beijing, China
-
-- Investigated AI data-center networking for distributed GPU training, focusing on RDMA, RoCEv2, ECN/PFC congestion control, and Leaf-Spine network architectures.
-- Analyzed switch architectures and high-performance network designs, and supported validation of network switches and optical modules under data-center scenarios.
-- Configured and validated enterprise routing and switching environments using BGP, OSPF, VLAN, STP, and ACL for protocol verification and troubleshooting.
+<section id="news" class="page-section reveal">
+  <div class="section-heading compact-heading">
+    <span class="section-kicker">03 · Updates</span>
+    <h2>News</h2>
+  </div>
+  <div class="news-list">
+    <div class="news-item"><span class="news-date">Apr. 2026</span><p>Our paper on communication-efficient compression for FedDyn federated learning was accepted to <strong>ICCECT 2026</strong>.</p></div>
+  </div>
+</section>
 
 {% include_relative _includes/publications.md %}
 
+<section id="experience" class="page-section reveal">
+  <div class="section-heading">
+    <span class="section-kicker">05 · Experience</span>
+    <h2>Industry Experience</h2>
+  </div>
 
-## Language
+  <div class="timeline">
+    <article class="timeline-item">
+      <div class="timeline-marker"></div>
+      <div class="timeline-card">
+        <div class="timeline-topline"><div><h3>Glenfly</h3><p>Software Development Intern · Shanghai, China</p></div><span>Jun. 2026 – Aug. 2026</span></div>
+        <ul>
+          <li>Conducted functional, stress, stability, and compatibility testing on GPUs across system-level workloads and graphics/compute APIs.</li>
+          <li>Performed repeated workload validation and failure reproduction to evaluate driver compatibility and platform stability.</li>
+          <li>Developed a desktop-folder detection pipeline using DexiNed and SAM for repetitive validation workflows across multiple resolutions and DPI settings.</li>
+        </ul>
+      </div>
+    </article>
 
-- **IELTS:** Overall Band **7.5/9.0** (Listening 8.0/9.0, Reading 8.5/9.0).
-- **CET-4:** 604/710, **CET-6:** 513/710 (both achieved on the first attempt in **freshman year**).
+    <article class="timeline-item">
+      <div class="timeline-marker"></div>
+      <div class="timeline-card">
+        <div class="timeline-topline"><div><h3>Cisco</h3><p>Technical Engineer Intern · Beijing, China</p></div><span>Jan. 2026 – Feb. 2026</span></div>
+        <ul>
+          <li>Investigated AI data-center networking for distributed GPU training, including RDMA, RoCEv2, ECN/PFC, and Leaf-Spine architectures.</li>
+          <li>Supported validation of switches and optical modules in data-center scenarios.</li>
+          <li>Configured and validated BGP, OSPF, VLAN, STP, and ACL environments for protocol verification and troubleshooting.</li>
+        </ul>
+      </div>
+    </article>
 
-## Miscs
+    <article class="timeline-item">
+      <div class="timeline-marker"></div>
+      <div class="timeline-card">
+        <div class="timeline-topline"><div><h3>Lenovo</h3><p>Embedded Algorithm Engineer · Beijing, China</p></div><span>Jun. 2025 – Aug. 2025</span></div>
+        <ul>
+          <li>Developed Stable Diffusion 3 inference pipelines for text-to-image, image-to-image, and inpainting with SAM/SAM2.</li>
+          <li>Built a large-scale data-processing pipeline and trained ControlNet on image-mask-prompt triplets.</li>
+          <li>Converted SD3 + ControlNet from PyTorch to OpenVINO and deployed the pipeline on Intel GPUs.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
 
-### Guitar
+<section id="education" class="page-section reveal">
+  <div class="section-heading">
+    <span class="section-kicker">06 · Education</span>
+    <h2>Education</h2>
+  </div>
+  <div class="education-card">
+    <div class="education-main">
+      <div class="school-mark">BJUT</div>
+      <div>
+        <h3>Beijing University of Technology</h3>
+        <p>B.S. in Electronic Science and Technology · 2023–2027</p>
+      </div>
+    </div>
+    <div class="education-stats">
+      <div><span>GPA</span><strong>3.76 / 4.00</strong></div>
+      <div><span>Overall Average</span><strong>88.7 / 100</strong></div>
+      <div><span>Junior Year</span><strong>93.12 / 100</strong></div>
+    </div>
+    <div class="course-block">
+      <span>Selected coursework</span>
+      <p>Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design (97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design (95).</p>
+    </div>
+  </div>
 
-<div style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 30px;">
-  <img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance 1" style="width: 220px; border-radius: 8px;">
-  <img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance 2" style="width: 220px; border-radius: 8px;">
-</div>
+  <div class="language-card">
+    <h3>Language</h3>
+    <div class="language-grid">
+      <div><span>IELTS</span><strong>7.5 / 9.0</strong><small>Listening 8.0 · Reading 8.5</small></div>
+      <div><span>CET-4</span><strong>604 / 710</strong><small>First attempt</small></div>
+      <div><span>CET-6</span><strong>513 / 710</strong><small>First attempt</small></div>
+    </div>
+  </div>
+</section>
 
-### Football
-
-<div style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 30px;">
-  <img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Football photo 1" style="width: 220px; border-radius: 8px;">
-  <img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Football photo 2" style="width: 220px; border-radius: 8px;">
-</div>
-
-### Travel
-
-<div style="display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 30px;">
-  <img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel photo 1" style="width: 220px; border-radius: 8px;">
-  <img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel photo 2" style="width: 220px; border-radius: 8px;">
-</div>
+<section id="beyond" class="page-section reveal">
+  <div class="section-heading">
+    <span class="section-kicker">07 · Beyond Research</span>
+    <h2>Life Outside the Lab</h2>
+    <p>Guitar, football, and travel keep me curious beyond engineering.</p>
+  </div>
+  <div class="photo-grid">
+    <figure class="photo-card photo-wide"><img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance"><figcaption>Guitar</figcaption></figure>
+    <figure class="photo-card"><img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Football"><figcaption>Football</figcaption></figure>
+    <figure class="photo-card"><img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel"><figcaption>Travel</figcaption></figure>
+    <figure class="photo-card"><img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance"></figure>
+    <figure class="photo-card"><img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Football"></figure>
+    <figure class="photo-card photo-wide"><img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel"></figure>
+  </div>
+</section>
