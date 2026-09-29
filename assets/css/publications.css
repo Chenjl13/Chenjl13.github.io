@@ -27,11 +27,11 @@
   color: #fff;
   background: rgba(143,87,53,.92);
   font-weight: 700;
-  font-size: .72rem;
+  font-size: .75rem;
   letter-spacing: .05em;
 }
 .publication-content { padding: 0; }
-.publication-meta { color: var(--muted); font-size: .8rem; line-height: 1.45; }
+.publication-meta { color: var(--muted); font-size: .84rem; line-height: 1.5; }
 .publication-content h3 {
   margin: 6px 0 7px;
   font-family: Georgia, "Times New Roman", serif;
@@ -47,7 +47,7 @@
 }
 .publication-content h3 a { color: var(--text); }
 .publication-content h3 a:hover { color: var(--accent); }
-.publication-authors { color: var(--muted); font-size: .9rem; line-height: 1.55; }
+.publication-authors { color: var(--muted); font-size: .94rem; line-height: 1.6; }
 .publication-authors strong { color: var(--text); }
 .publication-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .publication-links a {
@@ -60,11 +60,11 @@
   border: 1px solid var(--border);
   background: transparent;
   color: var(--muted);
-  font-size: .8rem;
+  font-size: .82rem;
   font-weight: 650;
 }
 .publication-links a:hover { border-color: var(--accent); color: var(--accent); }
-.publication-note { margin-top: 10px; color: var(--accent); font-size: .78rem; font-weight: 650; }
+.publication-note { margin-top: 10px; color: var(--accent); font-size: .82rem; font-weight: 650; }
 
 @media (max-width: 720px) {
   .publication-card { grid-template-columns: 1fr; gap: 14px; }
