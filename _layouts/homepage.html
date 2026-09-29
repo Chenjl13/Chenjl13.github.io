@@ -21,18 +21,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="{{ '/assets/css/font_sans_serif.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/publications.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=3' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/publications.css?v=3' | relative_url }}">
   </head>
 
   <body>
-    <div class="page-glow page-glow-one" aria-hidden="true"></div>
-    <div class="page-glow page-glow-two" aria-hidden="true"></div>
-
     <nav class="top-nav" id="top-nav">
       <div class="nav-inner">
-        <a class="nav-brand" href="#top" aria-label="Back to top">JC<span>.</span></a>
+        <a class="nav-brand" href="#top" aria-label="Back to top">Jiale Chen</a>
         <div class="nav-links" id="nav-links">
           <a href="#about">About</a>
           <a href="#research">Research</a>
@@ -42,8 +38,8 @@
           <a href="#beyond">Beyond</a>
         </div>
         <div class="nav-actions">
-          <button class="icon-control" id="theme-toggle" type="button" aria-label="Toggle dark mode">
-            <i class="fa-solid fa-moon"></i>
+          <button class="icon-control" id="theme-toggle" type="button" aria-label="Toggle color theme">
+            <i class="fa-solid fa-sun"></i>
           </button>
           <button class="icon-control mobile-menu" id="menu-toggle" type="button" aria-label="Toggle navigation">
             <i class="fa-solid fa-bars"></i>
@@ -55,32 +51,28 @@
     <main id="top">
       <section class="hero-shell">
         <div class="hero-copy reveal">
-          <div class="eyebrow"><span class="status-dot"></span> Undergraduate researcher · BJUT</div>
+          <p class="eyebrow">Undergraduate researcher · BJUT</p>
           <h1>{{ site.title }}</h1>
           <p class="hero-subtitle">AI Systems · GPU &amp; Accelerators · Multimodal Learning</p>
-          <p class="hero-intro">I work at the intersection of efficient AI, GPU systems, hardware acceleration, and multimodal learning.</p>
+          <p class="hero-intro">I work on efficient multimodal models, GPU systems, hardware acceleration, and digital IC design.</p>
 
           <div class="hero-actions">
-            {% if site.cv_link %}<a class="primary-btn" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener"><i class="fa-regular fa-file-lines"></i> CV</a>{% endif %}
-            {% if site.google_scholar %}<a class="secondary-btn" href="{{ site.google_scholar }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i> Scholar</a>{% endif %}
-            {% if site.github_link %}<a class="secondary-btn" href="{{ site.github_link }}" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>{% endif %}
+            {% if site.cv_link %}<a class="primary-btn" href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">CV <span>↗</span></a>{% endif %}
+            {% if site.google_scholar %}<a class="secondary-btn" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+            {% if site.github_link %}<a class="secondary-btn" href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
           </div>
 
           <div class="hero-meta">
-            <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener"><i class="fa-solid fa-building-columns"></i> {{ site.affiliation }}</a>
-            <a href="mailto:{{ site.email }}"><i class="fa-regular fa-envelope"></i> {{ site.email }}</a>
-            {% if site.orcid %}<a href="{{ site.orcid }}" target="_blank" rel="noopener"><i class="ai ai-orcid"></i> ORCID</a>{% endif %}
+            <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            {% if site.orcid %}<a href="{{ site.orcid }}" target="_blank" rel="noopener">ORCID</a>{% endif %}
           </div>
         </div>
 
         <div class="hero-visual reveal">
-          <div class="avatar-ring">
-            <div class="avatar-halo"></div>
+          <div class="avatar-frame">
             <img src="{{ site.avatar | relative_url }}" alt="Portrait of {{ site.title }}">
           </div>
-          <div class="floating-chip chip-one"><i class="fa-solid fa-microchip"></i> Hardware</div>
-          <div class="floating-chip chip-two"><i class="fa-solid fa-bolt"></i> GPU</div>
-          <div class="floating-chip chip-three"><i class="fa-solid fa-brain"></i> MLLM</div>
         </div>
       </section>
 
@@ -90,9 +82,9 @@
     </main>
 
     <footer class="site-footer">
-      <p>© {{ 'now' | date: '%Y' }} Jiale Chen. Built with Jekyll and GitHub Pages.</p>
+      <p>© {{ 'now' | date: '%Y' }} Jiale Chen · Jekyll + GitHub Pages</p>
     </footer>
 
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/main.js?v=3' | relative_url }}"></script>
   </body>
 </html>
