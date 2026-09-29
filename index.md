@@ -21,7 +21,7 @@ layout: homepage
   </div>
   <div class="education-card">
     <div class="education-main">
-      <div class="school-mark">BJUT</div>
+      <div class="school-mark"><img src="{{ '/assets/img/bjut.png' | relative_url }}" alt="Beijing University of Technology logo"></div>
       <div>
         <h3>Beijing University of Technology</h3>
         <p>B.S. in Electronic Science and Technology · 2023–2027</p>

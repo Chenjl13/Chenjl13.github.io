@@ -312,12 +312,9 @@ img { max-width: 100%; display: block; }
   height: 54px;
   display: grid;
   place-items: center;
-  border-radius: 50%;
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  font-size: .76rem;
-  font-weight: 800;
+  flex: 0 0 54px;
 }
+.school-mark img { width: 62px; height: 62px; max-width: none; object-fit: contain; }
 .education-main h3 { margin: 0; font-size: 1.08rem; }
 .education-main p { margin: 3px 0 0; color: var(--muted); font-size: .96rem; line-height: 1.68; }
 .education-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 20px; border: 1px solid var(--border); }
