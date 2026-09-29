@@ -22,26 +22,7 @@ layout: homepage
 
 <section id="research" class="page-section reveal">
   <div class="section-heading">
-    <h2>Research Interests</h2>
-  </div>
-
-  <div class="interest-grid">
-    <article class="interest-card">
-      <h3>AI Systems</h3>
-      <p>Efficient inference · GPU computing · Model deployment</p>
-    </article>
-    <article class="interest-card">
-      <h3>Hardware &amp; Architecture</h3>
-      <p>Digital IC · FPGA · Hardware accelerators</p>
-    </article>
-    <article class="interest-card">
-      <h3>Multimodal Learning</h3>
-      <p>MLLMs · PEFT · Medical image analysis</p>
-    </article>
-  </div>
-
-  <div class="subsection-heading">
-    <h3>Selected Research &amp; Projects</h3>
+    <h2>Research &amp; Projects</h2>
   </div>
 
   <div class="project-grid">
