@@ -8,9 +8,9 @@ layout: homepage
   </div>
   <div class="about-grid">
     <div class="about-copy">
-      <p>I am an undergraduate student in <strong>Electronic Science and Technology</strong> at Beijing University of Technology. My academic interests lie at the intersection of AI systems, GPU computing, hardware acceleration, computer architecture, and multimodal learning.</p>
+      <p>I am an undergraduate student in <strong>Electronic Science and Technology</strong> at <strong>Beijing University of Technology</strong>. My academic interests lie at the intersection of AI systems, GPU computing, hardware acceleration, computer architecture, and multimodal learning.</p>
       <p>I am currently a research intern at <strong>Shanghai Jiao Tong University</strong>, where I work on efficient multimodal learning and parameter-efficient adaptation for large vision-language models. My recent research explores dynamic LoRA rank allocation, multimodal model efficiency, and hardware-aware deployment.</p>
-      <p>Beyond research, I have gained engineering experience in GPU validation, AI inference deployment, embedded systems, and data-center networking through internships at Glenfly, Lenovo, and Cisco. I am particularly interested in bridging algorithmic efficiency with practical system and hardware constraints.</p>
+      <p>Beyond research, I have gained engineering experience in GPU validation, AI inference deployment, embedded systems, and data-center networking through internships at <strong>Glenfly, Lenovo, and Cisco</strong>. I am particularly interested in bridging algorithmic efficiency with practical system and hardware constraints.</p>
     </div>
   </div>
 </section>
@@ -28,9 +28,9 @@ layout: homepage
       </div>
     </div>
     <div class="education-stats">
-      <div><span>GPA</span><strong>3.76 / 4.00</strong></div>
-      <div><span>Overall Average</span><strong>88.7 / 100</strong></div>
-      <div><span>Junior Year</span><strong>93.12 / 100</strong></div>
+      <div><strong>3.76 / 4.00</strong><span>GPA</span></div>
+      <div><strong>88.7 / 100</strong><span>Overall Average</span></div>
+      <div><strong>93.12 / 100</strong><span>Junior Year</span></div>
     </div>
     <div class="course-block">
       <span>Selected coursework</span>
@@ -41,9 +41,9 @@ layout: homepage
   <div class="language-card">
     <h3>Language</h3>
     <div class="language-grid">
-      <div><span>IELTS</span><strong>7.5 / 9.0</strong><small>Listening 8.0 · Reading 8.5</small></div>
-      <div><span>CET-4</span><strong>604 / 710</strong><small>First attempt</small></div>
-      <div><span>CET-6</span><strong>513 / 710</strong><small>First attempt</small></div>
+      <div><strong>7.5 / 9.0</strong><span>IELTS</span><small>Listening 8.0 · Reading 8.5</small></div>
+      <div><strong>604 / 710</strong><span>CET-4</span><small>First attempt</small></div>
+      <div><strong>513 / 710</strong><span>CET-6</span><small>First attempt</small></div>
     </div>
   </div>
 </section>
