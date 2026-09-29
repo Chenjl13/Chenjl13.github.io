@@ -39,11 +39,11 @@ layout: homepage
   </div>
 
   <div class="language-card">
-    <h3>Language</h3>
+    <h3>Language (IELTS)</h3>
     <div class="language-grid">
-      <div><strong>7.5 / 9.0</strong><span>IELTS</span><small>Listening 8.0 · Reading 8.5</small></div>
-      <div><strong>604 / 710</strong><span>CET-4</span><small>First attempt</small></div>
-      <div><strong>513 / 710</strong><span>CET-6</span><small>First attempt</small></div>
+      <div><strong>7.5 / 9.0</strong><span>Overall</span></div>
+      <div><strong>8.0 / 9.0</strong><span>Listening</span></div>
+      <div><strong>8.5 / 9.0</strong><span>Reading</span></div>
     </div>
   </div>
 </section>
@@ -60,7 +60,7 @@ layout: homepage
         <span class="project-label">Efficient MLLM</span>
         <h3>Dynamic LoRA Rank Allocation</h3>
         <p>Layer-sensitive, budget-aware rank allocation for multimodal large language models, exploring dynamic adaptation under a fixed parameter budget.</p>
-        <div class="tag-row"><span>Qwen2.5-VL</span><span>QLoRA</span><span>ScienceQA</span></div>
+        <div class="tag-row"><span>QLoRA</span><span>Quantization</span><span>Adaptation</span><span>LLM</span></div>
       </div>
     </article>
 
@@ -72,7 +72,7 @@ layout: homepage
         <span class="project-label">FPGA / Embedded Systems</span>
         <h3>Remote FPGA Laboratory Platform</h3>
         <p>Designed a remote FPGA lab platform combining FPGA, STM32, Raspberry Pi 5, and ADC/DAC modules for remote programming, signal acquisition, waveform visualization, and hardware debugging.</p>
-        <div class="tag-row"><span>FPGA</span><span>STM32</span><span>Raspberry Pi</span><span>JTAG / UART</span></div>
+        <div class="tag-row"><span>FPGA</span><span>STM32</span><span>Raspberry Pi</span><span>System</span></div>
       </div>
     </article>
 
@@ -84,7 +84,7 @@ layout: homepage
         <span class="project-label">GPU Automation</span>
         <h3>Visual Validation Automation</h3>
         <p>Computer-vision-assisted automation for repetitive GPU validation workflows across resolutions and DPI settings.</p>
-        <div class="tag-row"><span>GPU</span><span>DexiNed</span><span>SAM</span></div>
+        <div class="tag-row"><span>GPU</span><span>Computer Vision</span><span>DexiNed</span><span>SAM</span></div>
       </div>
     </article>
   </div>
@@ -105,7 +105,7 @@ layout: homepage
         <ul>
           <li>Conducted functional, stress, stability, and compatibility testing on GPUs across system-level workloads and graphics/compute APIs.</li>
           <li>Performed repeated workload validation and failure reproduction to evaluate driver compatibility and platform stability.</li>
-          <li>Developed a desktop-folder detection pipeline using DexiNed and SAM for repetitive validation workflows across multiple resolutions and DPI settings.</li>
+          <li>Developed a desktop-folder detection pipeline using DexiNed and SAM for repetitive validation workflows across multiple DPI settings.</li>
         </ul>
       </div>
     </article>
