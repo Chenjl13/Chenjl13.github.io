@@ -143,19 +143,19 @@ layout: homepage
   </div>
   <div class="life-grid">
     <article class="life-column">
-      <div class="life-label"><span>01</span><strong>Guitar</strong></div>
+      <div class="life-label"><strong>Guitar</strong></div>
       <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance on stage"></figure>
       <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance"></figure>
     </article>
 
     <article class="life-column">
-      <div class="life-label"><span>02</span><strong>Football</strong></div>
+      <div class="life-label"><strong>Football</strong></div>
       <figure class="life-photo"><img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Football team photo"></figure>
       <figure class="life-photo"><img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Football with friends"></figure>
     </article>
 
     <article class="life-column">
-      <div class="life-label"><span>03</span><strong>Travel</strong></div>
+      <div class="life-label"><strong>Travel</strong></div>
       <figure class="life-photo"><img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel photo"></figure>
       <figure class="life-photo"><img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel by the lake"></figure>
     </article>
