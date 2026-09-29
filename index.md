@@ -4,7 +4,6 @@ layout: homepage
 
 <section id="about" class="page-section reveal">
   <div class="section-heading">
-    <span class="section-kicker">01 · About</span>
     <h2>About Me</h2>
   </div>
   <div class="about-grid">
@@ -23,7 +22,6 @@ layout: homepage
 
 <section id="research" class="page-section reveal">
   <div class="section-heading">
-    <span class="section-kicker">02 · Research</span>
     <h2>Research Interests</h2>
     <p>My current work connects model efficiency with systems and hardware-aware design.</p>
   </div>
@@ -90,7 +88,6 @@ layout: homepage
 
 <section id="news" class="page-section reveal">
   <div class="section-heading compact-heading">
-    <span class="section-kicker">03 · Updates</span>
     <h2>News</h2>
   </div>
   <div class="news-list">
@@ -102,7 +99,6 @@ layout: homepage
 
 <section id="experience" class="page-section reveal">
   <div class="section-heading">
-    <span class="section-kicker">05 · Experience</span>
     <h2>Industry Experience</h2>
   </div>
 
@@ -147,7 +143,6 @@ layout: homepage
 
 <section id="education" class="page-section reveal">
   <div class="section-heading">
-    <span class="section-kicker">06 · Education</span>
     <h2>Education</h2>
   </div>
   <div class="education-card">
@@ -181,7 +176,6 @@ layout: homepage
 
 <section id="beyond" class="page-section reveal">
   <div class="section-heading">
-    <span class="section-kicker">07 · Beyond Research</span>
     <h2>Life Outside the Lab</h2>
   </div>
   <div class="life-grid">
