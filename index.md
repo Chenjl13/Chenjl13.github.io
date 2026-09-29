@@ -59,9 +59,9 @@ layout: homepage
         <img src="{{ '/assets/img/project/QLoRA.png' | relative_url }}" alt="Dynamic LoRA Rank Allocation">
       </div>
       <div class="project-content">
-        <span class="project-label">Efficient MLLM</span>
+        <span class="project-label">EFFICIENT MLLM</span>
         <h3>Dynamic LoRA Rank Allocation</h3>
-        <p>Layer-sensitive, budget-aware rank allocation for multimodal large language models, exploring dynamic adaptation under a fixed parameter budget.</p>
+        <p>Layer-sensitive, budget-aware rank allocation for multimodal large language models, enabling adaptive parameter allocation under a fixed training budget.</p>
         <div class="tag-row"><span>QLoRA</span><span>Quantization</span><span>Adaptation</span><span>LLM</span></div>
       </div>
     </article>
@@ -71,9 +71,9 @@ layout: homepage
         <img class="fpga-project-image" src="{{ '/assets/img/project/FPGA.png' | relative_url }}" alt="Remote FPGA Laboratory Platform">
       </div>
       <div class="project-content">
-        <span class="project-label">FPGA / Embedded Systems</span>
+        <span class="project-label">FPGA / EMBEDDED SYSTEMS</span>
         <h3>Remote FPGA Laboratory Platform</h3>
-        <p>Designed a remote FPGA lab platform combining FPGA, STM32, Raspberry Pi 5, and ADC/DAC modules for remote programming, signal acquisition, waveform visualization, and hardware debugging.</p>
+        <p>Built a remote FPGA laboratory platform integrating FPGA, STM32, Raspberry Pi, and ADC/DAC modules for remote programming, signal acquisition, and hardware debugging.</p>
         <div class="tag-row"><span>FPGA</span><span>STM32</span><span>Raspberry Pi</span><span>System</span></div>
       </div>
     </article>
@@ -83,9 +83,9 @@ layout: homepage
         <img src="{{ '/assets/img/project/FolderSight.png' | relative_url }}" alt="Visual Validation Automation">
       </div>
       <div class="project-content">
-        <span class="project-label">GPU Automation</span>
+        <span class="project-label">GPU AUTOMATION</span>
         <h3>Visual Validation Automation</h3>
-        <p>Computer-vision-assisted automation for repetitive GPU validation workflows across resolutions and DPI settings.</p>
+        <p>Developed a vision-based automation pipeline for repetitive GPU validation across multiple resolutions and DPI settings, improving workflow consistency and efficiency.</p>
         <div class="tag-row"><span>GPU</span><span>Computer Vision</span><span>DexiNed</span><span>SAM</span></div>
       </div>
     </article>
