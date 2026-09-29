@@ -183,7 +183,6 @@ layout: homepage
   <div class="section-heading">
     <span class="section-kicker">07 · Beyond Research</span>
     <h2>Life Outside the Lab</h2>
-    <p>Guitar, football, and travel keep me curious beyond engineering.</p>
   </div>
   <div class="life-grid">
     <article class="life-column">
