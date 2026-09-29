@@ -77,7 +77,9 @@ layout: homepage
     </article>
 
     <article class="project-card">
-      <div class="project-art project-art-gpu"><i class="fa-solid fa-display"></i><i class="fa-solid fa-arrow-right"></i><i class="fa-solid fa-eye"></i></div>
+      <div class="project-image-wrap">
+        <img src="{{ '/assets/img/project/FolderSight.png' | relative_url }}" alt="Visual Validation Automation">
+      </div>
       <div class="project-content">
         <span class="project-label">GPU Automation</span>
         <h3>Visual Validation Automation</h3>
