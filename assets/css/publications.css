@@ -10,7 +10,7 @@
 }
 .publication-card:hover { transform: translateY(-2px); border-color: var(--accent); }
 .publication-image { position: relative; min-height: 175px; overflow: hidden; background: var(--surface-soft); }
-.publication-image img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.85) contrast(.96); }
+.publication-image img { width: 100%; height: 100%; object-fit: contain; filter: saturate(.85) contrast(.96); }
 .venue-badge {
   position: absolute;
   left: 12px;
