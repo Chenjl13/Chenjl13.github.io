@@ -85,7 +85,7 @@ layout: homepage
       <div class="project-content">
         <span class="project-label">GPU AUTOMATION</span>
         <h3>Visual Validation Automation</h3>
-        <p>Developed a vision-based automation pipeline for repetitive GPU validation across multiple resolutions and DPI settings, improving workflow consistency and efficiency.</p>
+        <p>Developed a vision-based automation pipeline for repetitive GPU validation across multiple DPI settings, improving workflow consistency and efficiency.</p>
         <div class="tag-row"><span>GPU</span><span>Computer Vision</span><span>DexiNed</span><span>SAM</span></div>
       </div>
     </article>
