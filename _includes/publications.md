@@ -1,6 +1,5 @@
 <section id="publications" class="page-section reveal">
   <div class="section-heading">
-    <span class="section-kicker">04 · Publications</span>
     <h2>Publications</h2>
   </div>
 
