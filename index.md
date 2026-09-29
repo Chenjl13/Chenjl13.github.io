@@ -185,12 +185,23 @@ layout: homepage
     <h2>Life Outside the Lab</h2>
     <p>Guitar, football, and travel keep me curious beyond engineering.</p>
   </div>
-  <div class="photo-grid">
-    <figure class="photo-card photo-wide"><img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance"><figcaption>Guitar</figcaption></figure>
-    <figure class="photo-card"><img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Football"><figcaption>Football</figcaption></figure>
-    <figure class="photo-card"><img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel"><figcaption>Travel</figcaption></figure>
-    <figure class="photo-card"><img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance"></figure>
-    <figure class="photo-card"><img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Football"></figure>
-    <figure class="photo-card photo-wide"><img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel"></figure>
+  <div class="life-grid">
+    <article class="life-column">
+      <div class="life-label"><span>01</span><strong>Guitar</strong></div>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance on stage"></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance"></figure>
+    </article>
+
+    <article class="life-column">
+      <div class="life-label"><span>02</span><strong>Football</strong></div>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Football team photo"></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Football with friends"></figure>
+    </article>
+
+    <article class="life-column">
+      <div class="life-label"><span>03</span><strong>Travel</strong></div>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel photo"></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel by the lake"></figure>
+    </article>
   </div>
 </section>
