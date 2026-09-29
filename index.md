@@ -86,15 +86,6 @@ layout: homepage
   </div>
 </section>
 
-<section id="news" class="page-section reveal">
-  <div class="section-heading compact-heading">
-    <h2>News</h2>
-  </div>
-  <div class="news-list">
-    <div class="news-item"><span class="news-date">Apr. 2026</span><p>Our paper on communication-efficient compression for FedDyn federated learning was accepted to <strong>ICCECT 2026</strong>.</p></div>
-  </div>
-</section>
-
 {% include_relative _includes/publications.md %}
 
 <section id="experience" class="page-section reveal">
