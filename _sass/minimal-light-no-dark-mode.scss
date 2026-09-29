@@ -127,7 +127,7 @@ img { max-width: 100%; display: block; }
   color: var(--muted);
   font-size: 1rem;
 }
-.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
 .primary-btn, .secondary-btn {
   display: inline-flex;
   align-items: center;
@@ -154,11 +154,11 @@ img { max-width: 100%; display: block; }
 .hero-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 18px;
-  margin-top: 24px;
+  gap: 8px 24px;
+  margin-top: 12px;
 }
-.hero-meta a { color: var(--text); font-size: .92rem; }
-.hero-meta a:hover { color: var(--accent); }
+.hero-meta a { color: #84c99b; font-size: 1.08rem; font-weight: 600; }
+.hero-meta a:hover { color: #9adbad; }
 .hero-visual { display: grid; place-items: center; }
 .avatar-frame {
   width: min(300px, 70vw);
