@@ -65,8 +65,8 @@ layout: homepage
     </article>
 
     <article class="project-card">
-      <div class="project-art project-art-fpga">
-        <span>FPGA</span><i class="fa-solid fa-arrow-right"></i><span>STM32</span><i class="fa-solid fa-arrow-right"></i><span>Raspberry Pi</span>
+      <div class="project-image-wrap">
+        <img class="fpga-project-image" src="{{ '/assets/img/project/FPGA.png' | relative_url }}" alt="Remote FPGA Laboratory Platform">
       </div>
       <div class="project-content">
         <span class="project-label">FPGA / Embedded Systems</span>
