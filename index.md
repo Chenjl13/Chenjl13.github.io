@@ -8,14 +8,42 @@ layout: homepage
   </div>
   <div class="about-grid">
     <div class="about-copy">
-      <p>I am an undergraduate student in <strong>Electronic Science and Technology</strong> at Beijing University of Technology. My interests span efficient AI systems, GPU computing, hardware acceleration, and multimodal learning.</p>
-      <p>I am currently a research intern at <strong>Shanghai Jiao Tong University</strong> under the supervision of Dr. Hongyu Zhao. Previously, I was advised by Prof. Sujuan Liu.</p>
+      <p>I am an undergraduate student in <strong>Electronic Science and Technology</strong> at Beijing University of Technology. My academic interests lie at the intersection of AI systems, GPU computing, hardware acceleration, computer architecture, and multimodal learning.</p>
+      <p>I am currently a research intern at <strong>Shanghai Jiao Tong University</strong>, where I work on efficient multimodal learning and parameter-efficient adaptation for large vision-language models. My recent research explores dynamic LoRA rank allocation, multimodal model efficiency, and hardware-aware deployment.</p>
+      <p>Beyond research, I have gained engineering experience in GPU validation, AI inference deployment, embedded systems, and data-center networking through internships at Glenfly, Lenovo, and Cisco. I am particularly interested in bridging algorithmic efficiency with practical system and hardware constraints.</p>
     </div>
-    <div class="quick-facts">
-      <div><span>Degree</span><strong>B.S. · 2023–2027</strong></div>
+  </div>
+</section>
+
+<section id="education" class="page-section reveal">
+  <div class="section-heading">
+    <h2>Education</h2>
+  </div>
+  <div class="education-card">
+    <div class="education-main">
+      <div class="school-mark">BJUT</div>
+      <div>
+        <h3>Beijing University of Technology</h3>
+        <p>B.S. in Electronic Science and Technology · 2023–2027</p>
+      </div>
+    </div>
+    <div class="education-stats">
       <div><span>GPA</span><strong>3.76 / 4.00</strong></div>
+      <div><span>Overall Average</span><strong>88.7 / 100</strong></div>
       <div><span>Junior Year</span><strong>93.12 / 100</strong></div>
-      <div><span>IELTS</span><strong>7.5 / 9.0</strong></div>
+    </div>
+    <div class="course-block">
+      <span>Selected coursework</span>
+      <p>Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design (97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design (95).</p>
+    </div>
+  </div>
+
+  <div class="language-card">
+    <h3>Language</h3>
+    <div class="language-grid">
+      <div><span>IELTS</span><strong>7.5 / 9.0</strong><small>Listening 8.0 · Reading 8.5</small></div>
+      <div><span>CET-4</span><strong>604 / 710</strong><small>First attempt</small></div>
+      <div><span>CET-6</span><strong>513 / 710</strong><small>First attempt</small></div>
     </div>
   </div>
 </section>
@@ -106,38 +134,6 @@ layout: homepage
   </div>
 </section>
 
-<section id="education" class="page-section reveal">
-  <div class="section-heading">
-    <h2>Education</h2>
-  </div>
-  <div class="education-card">
-    <div class="education-main">
-      <div class="school-mark">BJUT</div>
-      <div>
-        <h3>Beijing University of Technology</h3>
-        <p>B.S. in Electronic Science and Technology · 2023–2027</p>
-      </div>
-    </div>
-    <div class="education-stats">
-      <div><span>GPA</span><strong>3.76 / 4.00</strong></div>
-      <div><span>Overall Average</span><strong>88.7 / 100</strong></div>
-      <div><span>Junior Year</span><strong>93.12 / 100</strong></div>
-    </div>
-    <div class="course-block">
-      <span>Selected coursework</span>
-      <p>Advanced Mathematics (100), Control Systems (99), Deep Learning (98), RF Integrated Circuit Design (97), Microcontroller Systems (97), General Physics (97), Electronic Materials and Devices (96), Digital Integrated Circuit Design (95).</p>
-    </div>
-  </div>
-
-  <div class="language-card">
-    <h3>Language</h3>
-    <div class="language-grid">
-      <div><span>IELTS</span><strong>7.5 / 9.0</strong><small>Listening 8.0 · Reading 8.5</small></div>
-      <div><span>CET-4</span><strong>604 / 710</strong><small>First attempt</small></div>
-      <div><span>CET-6</span><strong>513 / 710</strong><small>First attempt</small></div>
-    </div>
-  </div>
-</section>
 
 <section id="beyond" class="page-section reveal">
   <div class="section-heading">
