@@ -23,27 +23,20 @@ layout: homepage
 <section id="research" class="page-section reveal">
   <div class="section-heading">
     <h2>Research Interests</h2>
-    <p>My current work connects model efficiency with systems and hardware-aware design.</p>
   </div>
 
   <div class="interest-grid">
     <article class="interest-card">
-      <div class="card-icon"><i class="fa-solid fa-server"></i></div>
       <h3>AI Systems</h3>
-      <p>GPU computing, efficient inference, model deployment, and system-level optimization.</p>
-      <div class="tag-row"><span>GPU</span><span>Inference</span><span>OpenVINO</span></div>
+      <p>Efficient inference · GPU computing · Model deployment</p>
     </article>
     <article class="interest-card">
-      <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
-      <h3>Hardware &amp; Accelerators</h3>
-      <p>Digital IC design, FPGA systems, architecture, validation, and hardware-aware acceleration.</p>
-      <div class="tag-row"><span>Digital IC</span><span>FPGA</span><span>Architecture</span></div>
+      <h3>Hardware &amp; Architecture</h3>
+      <p>Digital IC · FPGA · Hardware accelerators</p>
     </article>
     <article class="interest-card">
-      <div class="card-icon"><i class="fa-solid fa-brain"></i></div>
-      <h3>Multimodal AI</h3>
-      <p>Multimodal large language models, parameter-efficient adaptation, and medical image analysis.</p>
-      <div class="tag-row"><span>MLLM</span><span>LoRA</span><span>Medical AI</span></div>
+      <h3>Multimodal Learning</h3>
+      <p>MLLMs · PEFT · Medical image analysis</p>
     </article>
   </div>
 
@@ -63,14 +56,14 @@ layout: homepage
     </article>
 
     <article class="project-card">
-      <div class="project-image-wrap">
-        <img src="{{ '/assets/img/MedFusion.png' | relative_url }}" alt="MedFusion project preview">
+      <div class="project-art project-art-fpga">
+        <span>FPGA</span><i class="fa-solid fa-arrow-right"></i><span>STM32</span><i class="fa-solid fa-arrow-right"></i><span>Raspberry Pi</span>
       </div>
       <div class="project-content">
-        <span class="project-label">Medical AI</span>
-        <h3>MedFusion</h3>
-        <p>Budget-aware shared LoRA adaptation for multi-source medical image classification with efficient routing across heterogeneous datasets.</p>
-        <div class="tag-row"><span>MLLM</span><span>Shared LoRA</span><span>Medical Imaging</span></div>
+        <span class="project-label">FPGA / Embedded Systems</span>
+        <h3>Remote FPGA Laboratory Platform</h3>
+        <p>Designed a remote FPGA lab platform combining FPGA, STM32, Raspberry Pi 5, and ADC/DAC modules for remote programming, signal acquisition, waveform visualization, and hardware debugging.</p>
+        <div class="tag-row"><span>FPGA</span><span>STM32</span><span>Raspberry Pi</span><span>JTAG / UART</span></div>
       </div>
     </article>
 
