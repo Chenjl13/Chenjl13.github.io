@@ -66,19 +66,19 @@ layout: homepage
       </div>
     </article>
 
-    <a class="project-card-link" href="https://github.com/Chenjl13/Remote_FPGA_Lab" target="_blank" rel="noopener noreferrer">
-      <article class="project-card">
-        <div class="project-image-wrap">
-          <img class="fpga-project-image" src="{{ '/assets/img/project/FPGA.png' | relative_url }}" alt="Remote FPGA Laboratory Platform">
-        </div>
-        <div class="project-content">
-          <span class="project-label">FPGA / EMBEDDED SYSTEMS</span>
-          <h3>Remote FPGA Laboratory Platform</h3>
-          <p>Built a remote FPGA laboratory platform integrating FPGA, STM32, Raspberry Pi, and ADC/DAC modules for remote programming, signal acquisition, and hardware debugging.</p>
-          <div class="tag-row"><span>FPGA</span><span>STM32</span><span>Raspberry Pi</span><span>System</span></div>
-        </div>
-      </article>
-    </a>
+<a class="project-card-link" href="https://github.com/Chenjl13/Remote_FPGA_Lab" target="_blank" rel="noopener noreferrer">
+<article class="project-card">
+<div class="project-image-wrap">
+<img class="fpga-project-image" src="{{ '/assets/img/project/FPGA.png' | relative_url }}" alt="Remote FPGA Laboratory Platform">
+</div>
+<div class="project-content">
+<span class="project-label">FPGA / EMBEDDED SYSTEMS</span>
+<h3>Remote FPGA Laboratory Platform</h3>
+<p>Built a remote FPGA laboratory platform integrating FPGA, STM32, Raspberry Pi, and ADC/DAC modules for remote programming, signal acquisition, and hardware debugging.</p>
+<div class="tag-row"><span>FPGA</span><span>STM32</span><span>Raspberry Pi</span><span>System</span></div>
+</div>
+</article>
+</a>
 
     <article class="project-card">
       <div class="project-image-wrap">
