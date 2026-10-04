@@ -247,6 +247,9 @@ img { max-width: 100%; display: block; }
 }
 
 .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.project-card-link { display: block; height: 100%; color: inherit; text-decoration: none; cursor: pointer; }
+.project-card-link:hover { color: inherit; }
+.project-card-link .project-card { height: 100%; }
 .project-card { border-radius: var(--radius); overflow: hidden; transition: .18s ease; }
 .project-image-wrap, .project-art { height: 160px; background: var(--surface-soft); overflow: hidden; }
 .project-image-wrap img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.8) contrast(.96); }
