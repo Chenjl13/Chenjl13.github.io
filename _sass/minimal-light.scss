@@ -205,6 +205,14 @@ img { max-width: 100%; display: block; }
 .about-grid { display: grid; grid-template-columns: 1fr; gap: 0; align-items: start; }
 .about-copy p { margin: 0 0 17px; color: var(--muted); font-size: 1.05rem; line-height: 1.75; }
 .about-copy strong { color: var(--text); }
+.inline-entity-link {
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color .18s ease;
+}
+.inline-entity-link strong { color: inherit; }
+.inline-entity-link:hover { color: var(--accent); }
 .education-stats span, .course-block > span, .language-grid span {
   display: block;
   color: var(--muted);
