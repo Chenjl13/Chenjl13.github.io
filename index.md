@@ -150,20 +150,20 @@ layout: homepage
   <div class="life-grid">
     <article class="life-column">
       <div class="life-label"><strong>Guitar</strong></div>
-      <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance on stage"></figure>
-      <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance"></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar3.jpg' | relative_url }}" alt="Guitar performance on stage"><figcaption>2026 Annual Gala Performance</figcaption></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/guitar2.jpg' | relative_url }}" alt="Guitar performance"><figcaption>2024 Annual Gala Performance</figcaption></figure>
     </article>
 
     <article class="life-column">
       <div class="life-label"><strong>Football</strong></div>
-      <figure class="life-photo"><img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Football team photo"></figure>
-      <figure class="life-photo"><img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Football with friends"></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/Football1.jpg' | relative_url }}" alt="Football team photo"><figcaption>Tsinghua High School G20 &amp; G21 Boys' Football Team</figcaption></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/Football2.jpg' | relative_url }}" alt="Football with friends"><figcaption>Football with High School Friends</figcaption></figure>
     </article>
 
     <article class="life-column">
       <div class="life-label"><strong>Travel</strong></div>
-      <figure class="life-photo"><img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel photo"></figure>
-      <figure class="life-photo"><img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel by the lake"></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/travel1.jpg' | relative_url }}" alt="Travel photo"><figcaption>Seoul, South Korea</figcaption></figure>
+      <figure class="life-photo"><img src="{{ '/assets/img/misc/travel2.jpg' | relative_url }}" alt="Travel by the lake"><figcaption>South Island, New Zealand</figcaption></figure>
     </article>
   </div>
 </section>
