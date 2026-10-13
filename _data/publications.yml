@@ -8,3 +8,13 @@ main:
     bibtex: /assets/bib/ICCECT.txt
     image: /assets/img/ICCECT.png
     notes: "Published in IEEE Xplore"
+
+  - title: "MedFusion: Learning to Share Low-Rank Adapters for Multi-Source Medical Vision–Language Adaptation"
+    authors: "Hongyu Zhao*, <strong>Jiale Chen*</strong>, Yihong Chen*, Shijun Liu, Wei Liu, Yixuan Li, and Ruhui Ma**"
+    conference_short: "TMM"
+    conference: "IEEE Transactions on Multimedia <strong>(TMM)</strong>, 2026."
+    pdf: /assets/files/ICCECT.pdf
+    code: "https://github.com/Chenjl13/FedDyn-FPI"
+    bibtex: /assets/bib/ICCECT.txt
+    image: /assets/img/MedFusion.png
+    notes: "Published in IEEE Xplore"
