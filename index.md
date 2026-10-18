@@ -169,6 +169,74 @@ layout: homepage
 </section>
 
 
+
+<!-- GitHub Activity -->
+<link rel="stylesheet"
+  href="https://unpkg.com/github-calendar@2.3.4/dist/github-calendar-responsive.css">
+
+<section id="github-activity" class="page-section reveal">
+  <div class="section-heading">
+    <h2>GitHub Activity</h2>
+  </div>
+
+  <div class="github-activity-card">
+    <div class="calendar">
+      Loading GitHub contributions...
+    </div>
+  </div>
+</section>
+
+<style>
+.github-activity-card {
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(180,150,220,0.18);
+  border-radius: 14px;
+  padding: 22px;
+  overflow-x: auto;
+}
+
+.github-activity-card .calendar {
+  border: none;
+  background: transparent;
+  color: #d6cde2;
+  min-width: 650px;
+}
+
+.github-activity-card .calendar .ContributionCalendar-day[data-level="0"] {
+  fill: #2c2339;
+  background-color: #2c2339;
+}
+
+.github-activity-card .calendar .ContributionCalendar-day[data-level="1"] {
+  fill: #62417f;
+  background-color: #62417f;
+}
+
+.github-activity-card .calendar .ContributionCalendar-day[data-level="2"] {
+  fill: #8554ab;
+  background-color: #8554ab;
+}
+
+.github-activity-card .calendar .ContributionCalendar-day[data-level="3"] {
+  fill: #a876d1;
+  background-color: #a876d1;
+}
+
+.github-activity-card .calendar .ContributionCalendar-day[data-level="4"] {
+  fill: #cb9af1;
+  background-color: #cb9af1;
+}
+</style>
+
+<script src="https://unpkg.com/github-calendar@2.3.4/dist/github-calendar.min.js"></script>
+<script>
+  GitHubCalendar(".calendar", "chenjl13", {
+    responsive: true,
+    global_stats: false
+  });
+</script>
+
+
 <!-- Visitor Map -->
 <section id="visitor-map" class="page-section reveal">
   <div class="section-heading">
