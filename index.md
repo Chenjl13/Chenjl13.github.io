@@ -167,3 +167,24 @@ layout: homepage
     </article>
   </div>
 </section>
+
+
+<!-- Visitor Map -->
+<section id="visitor-map" class="page-section reveal">
+  <div class="section-heading">
+    <h2>Visitor Map</h2>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin: 20px 0;">
+    <script
+      src="https://revolvermaps2.com/embed.js"
+      data-site="24duekgi74d6"
+      data-size="300"
+      data-theme="night"
+      data-color="ffb23f"
+      async>
+    </script>
+  </div>
+</section>
+
+
